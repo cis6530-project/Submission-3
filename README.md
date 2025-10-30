@@ -4,6 +4,7 @@ NOTE TO THE TA:
 Our previous submission 2 contained 322 executables. In order to represent our updated dataset of 630 executables, we also have again attached Exeutables folder.
 -Opcodes
 -Custom Script
+-Read me (for script instructions)
 
 *** We were able to extract the opcodes for most of the files (400 opcodes) but the other 200 take a lot of time for the script to extrct. We are looking into this and working to extract the other 200 opcodes for our work for Submission 4 and Submission 5.
 DUE TO TIME CONSTRAINTS, we have submitted the 400 opcodes.
