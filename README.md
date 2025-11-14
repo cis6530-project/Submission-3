@@ -11,7 +11,7 @@ DUE TO TIME CONSTRAINTS, we have submitted the 400 opcodes.
 
 Contributors:
 
-Nafis Ahmed Awsaf, nawsaf@uoguelph.ca, Student ID: 1402517 Jacob Drobena, jdrobena@uoguelph.ca, Student ID: 0969071
+Nafis Ahmed Awsaf, nawsaf@uoguelph.ca, Jacob Drobena, jdrobena@uoguelph.ca
 
 Work Breakdown:
 
